@@ -27,9 +27,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DangNhap_Activity" />
-        <activity android:name=".activity.AddBooktypeActivity" />
-        <activity android:name=".activity.BooktypeActivity" />
-        <activity android:name=".activity.EditBookTypeActivity" />
+        <activity android:name=".activity.AddSPActivity" />
+        <activity android:name=".activity.SanPhamActivity" />
+        <activity android:name=".activity.SuaSPActivity" />
         <activity android:name=".ThongKeActivity" />
         <activity android:name=".LienHeActivity" />
         <activity
