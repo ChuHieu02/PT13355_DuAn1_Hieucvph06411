@@ -4,6 +4,7 @@
     <string name="title_activity_dangnhap">Sign in</string>
 
     <!-- Strings related to login -->
+    <string name="err">Không được để trống</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
