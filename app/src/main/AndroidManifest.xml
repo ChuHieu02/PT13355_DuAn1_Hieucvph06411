@@ -32,11 +32,14 @@
         <activity android:name=".activity.SuaSPActivity" />
         <activity android:name=".ThongKeActivity" />
         <activity android:name=".LienHeActivity" />
+        <activity android:name=".activity.AddNVActivity" />
+        <activity android:name=".activity.SuaNVActivity" />
+        <activity android:name=".activity.NhanVienActivity" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".WebViewsActivity"></activity>
+        <activity android:name=".gioithieuActivity"></activity>
     </application>
 
 </manifest>

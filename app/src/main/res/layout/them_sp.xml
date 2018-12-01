@@ -64,7 +64,7 @@
                 android:id="@+id/edtIDType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Tên Sản Phẩm"
+                android:hint="Mã Sản Phẩm"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -82,7 +82,7 @@
                 android:id="@+id/edtNameType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Loại Sản Phẩm"
+                android:hint="Tên Sản Phẩm"
                 android:maxLines="1"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -98,7 +98,7 @@
                 android:id="@+id/edtLocationType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Số Lượng"
+                android:hint="Giá Tiền"
                 android:inputType="number"
                 android:maxLines="1"
                 android:singleLine="true" />
@@ -112,11 +112,10 @@
             android:layout_marginRight="4dp">
 
             <EditText
-                android:inputType="number"
                 android:id="@+id/edtInfoTypebook"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Giá Tiền "
+                android:hint="Mô tả "
                 android:maxLines="1"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>

@@ -82,7 +82,7 @@
                 android:id="@+id/edtLocationType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Số Lượng"
+                android:hint="giá tiền"
                 android:inputType="number"
                 android:maxLines="1"
                 android:singleLine="true" />
@@ -99,7 +99,7 @@
                 android:id="@+id/edtInfoTypebook"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Giá Tiền"
+                android:hint="Mô tả"
                 android:maxLines="1"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>

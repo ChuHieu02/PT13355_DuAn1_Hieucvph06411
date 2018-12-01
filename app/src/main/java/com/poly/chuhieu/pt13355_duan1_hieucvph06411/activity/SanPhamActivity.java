@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.poly.chuhieu.pt13355_duan1_hieucvph06411.Home;
 import com.poly.chuhieu.pt13355_duan1_hieucvph06411.R;
 import com.poly.chuhieu.pt13355_duan1_hieucvph06411.adapter.SanPhamAdapter;
 import com.poly.chuhieu.pt13355_duan1_hieucvph06411.model.SanPham;
@@ -75,5 +76,10 @@ public class SanPhamActivity extends AppCompatActivity {
     public void addType(View view) {
         startActivity(new Intent(SanPhamActivity.this, AddSPActivity.class));
 
+    }
+
+    public void back(View view) {
+        Intent intent = new Intent(SanPhamActivity.this, Home.class);
+        startActivity(intent);
     }
 }

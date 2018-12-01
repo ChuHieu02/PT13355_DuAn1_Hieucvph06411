@@ -29,10 +29,10 @@ public class ThongKeActivity extends AppCompatActivity {
     public void tinhloinhuan(View view) {
 
 
-        if (edtongchi.length()==0 || edtongthu.length()==0 ){
-            edtongthu.setError("Điền Thông tin");
-            edtongchi.setError("Điền Thông tin");
-        }else {
+            if (edtongchi.length()==0 || edtongthu.length()==0 ){
+                edtongthu.setError("Điền Thông tin");
+                edtongchi.setError("Điền Thông tin");
+            }else {
             String tongthu = edtongthu.getText().toString();
             String tongchi = edtongchi.getText().toString();
 

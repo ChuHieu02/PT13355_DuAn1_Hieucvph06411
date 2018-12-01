@@ -4,6 +4,11 @@
     <string name="title_activity_dangnhap">Sign in</string>
 
     <!-- Strings related to login -->
+    <string name="click">Chọn có để thoát!</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+
+    <string name="back">Bạn có muốn thoát không?</string>
     <string name="err">Không được để trống</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
